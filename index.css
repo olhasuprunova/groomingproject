@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Roboto');
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     max-width: 800px;
@@ -10,7 +6,11 @@ body {
     background: #8eefd4;
 }
 
-#logo a {
+h1, h2, h3, main, article, aside, p, section, div, nav{ 
+    margin: 0;
+    padding: 0;
+}
+.logo{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
