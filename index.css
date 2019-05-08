@@ -84,6 +84,10 @@ main .dogsimg {
     text-align: right
 }
 
+#map {
+            height: 500px;
+            width: 100%;
+        }
 
 .scissors {
     width: 100px;

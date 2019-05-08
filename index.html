@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav>
-            <div class ="logo">
+            <div class="logo">
                 <a href="index.html">
                     <p>Dog's Paradise</p>
                 </a>
@@ -47,11 +47,13 @@
                 <p>Phone</p>
                 <p>1-800-654-5657</p>
                 <p>Location</p>
+                
                 <p>Livehood Centre 765 Red Oaks Avenue, 54A San Antonio, TX</p>
                 <p>Hours</p>
                 <p>Monday-Friday:</p>
                 <p>10 a.m. to 6 p.m.</p>
                 <p>Saturday: 9 a.m. to 5 p.m.</p>
+                <div id="map"></div>
                 <div class="scissors">
                     <img src="img/scissors.jpg" alt="scissors">
                 </div>
@@ -135,7 +137,10 @@
         </div>
         <span>2019. All rights reserved</span>
     </footer>
-<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
+    <script src='js/map.js'></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHhsrdgR9ElOU0J_qQQBhn7HEO3AsPpFQ&callback=initMap"
+    async defer></script>
 </body>
 
 </html>
