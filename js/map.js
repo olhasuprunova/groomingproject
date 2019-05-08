@@ -1,11 +1,11 @@
 function initMap() {
-            var siliconValley = {lat: 37.3875, lng:-122.0575};
-            var mapOptions = {
+            let siliconValley = {lat: 37.3875, lng:-122.0575};
+            let mapOptions = {
                 center: siliconValley,
                 zoom: 10
             };
-            var googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
-            var marker = new google.maps.Marker({
+            let googlemap = new google.maps.Map(document.getElementById("map"), mapOptions);
+            let marker = new google.maps.Marker({
                 position: siliconValley,
                 map: googlemap
             });

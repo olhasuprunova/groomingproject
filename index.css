@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Raleway');
 
 body {
     max-width: 800px;
@@ -12,7 +12,7 @@ h1, h2, h3, main, article, aside, p, section, div, nav{
 }
 .logo{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     text-decoration: none;
 }
@@ -27,7 +27,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: black;
 }
 
@@ -85,8 +85,9 @@ main .dogsimg {
 }
 
 #map {
-            height: 500px;
+            height: 300px;
             width: 100%;
+            text-align:right;
         }
 
 .scissors {
