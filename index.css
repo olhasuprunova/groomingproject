@@ -117,18 +117,16 @@ td {
     width:100%
 }
 
-footer {
-    height: 70px;
-    margin: 1px 1px 1px 1px;
-}
 
 #contactus {
 
     padding: 25px;
 }
-
+#contactus h3 {
+    text-align:left;
+}
 form {
-     width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 label, input {
@@ -145,6 +143,12 @@ label, input {
     width: 100px;
     height: 50px;
 }
+
+footer {
+    height: 70px;
+    margin: 1px 1px 1px 1px;
+}
+
 
 .row {
   display: flex;
