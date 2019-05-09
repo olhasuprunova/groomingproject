@@ -9,11 +9,12 @@ body {
 h1,
 h2,
 h3,
+p,
 main,
 article,
 aside,
-p,
 section,
+footer,
 div,
 nav {
     margin: 0;
@@ -137,14 +138,12 @@ td {
 #contactus h3 {
     text-align: left;
 }
-
 form {
     width: 100%;
     margin: 0 auto;
 }
 
-label,
-input {
+label, input {
     display: inline-block;
 }
 
@@ -155,7 +154,7 @@ input {
 
 .award img {
     margin: auto 0px;
-    float: none;
+    float: right;
     width: 100px;
     height: 50px;
 }
@@ -172,5 +171,5 @@ footer {
 
 .socialmedia {
     flex: 33.33%;
-    padding: 5px;
+    padding: 25px;
 }
