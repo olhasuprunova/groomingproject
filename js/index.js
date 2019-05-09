@@ -1,6 +1,7 @@
-document.querySelector('.yourinfo input[type=submit]').addEventListener('click', 
+document.querySelector('.yourinfo input[type=submit]').addEventListener('click',
   submitForm);
-  function submitForm(e) {
-      document.forms["yourinfo"].submit();
-    e.preventDefault();
+
+function submitForm(e) {
+  document.forms["yourinfo"].submit();
+  e.preventDefault();
 }

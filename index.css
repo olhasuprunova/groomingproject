@@ -6,11 +6,21 @@ body {
     background: #8eefd4;
 }
 
-h1, h2, h3, main, article, aside, p, section, div, nav{ 
+h1,
+h2,
+h3,
+main,
+article,
+aside,
+p,
+section,
+div,
+nav {
     margin: 0;
     padding: 0;
 }
-.logo{
+
+.logo {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 3rem;
@@ -85,9 +95,9 @@ main .dogsimg {
 }
 
 #map {
-            height: 300px;
-            width: 100%;
-        }
+    height: 300px;
+    width: 100%;
+}
 
 .poodle {
     width: 100px;
@@ -106,15 +116,16 @@ main .dogsimg {
 
     padding: 25px;
 }
-#services h2{
-    text-align:center
+
+#services h2 {
+    text-align: center
 }
 
 table,
 th,
 td {
     border: 1px solid black;
-    width:100%
+    width: 100%
 }
 
 
@@ -122,16 +133,21 @@ td {
 
     padding: 25px;
 }
+
 #contactus h3 {
-    text-align:left;
+    text-align: left;
 }
+
 form {
     width: 100%;
     margin: 0 auto;
 }
-label, input {
+
+label,
+input {
     display: inline-block;
 }
+
 .award {
     width: 100px;
     display: flex;
@@ -151,10 +167,10 @@ footer {
 
 
 .row {
-  display: flex;
+    display: flex;
 }
 
 .socialmedia {
-  flex: 33.33%;
-  padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
 }
