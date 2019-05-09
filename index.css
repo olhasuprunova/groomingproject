@@ -87,7 +87,6 @@ main .dogsimg {
 #map {
             height: 300px;
             width: 100%;
-            text-align:right;
         }
 
 .scissors {
@@ -108,11 +107,15 @@ main .dogsimg {
 
     padding: 25px;
 }
+#services h2{
+    text-align:center
+}
 
 table,
 th,
 td {
     border: 1px solid black;
+    width:100%
 }
 
 footer {
@@ -125,6 +128,13 @@ footer {
     padding: 25px;
 }
 
+form {
+     width: 100%;
+    margin: 0 auto;
+}
+label, input {
+    display: inline-block;
+}
 .award {
     width: 100px;
     display: flex;
