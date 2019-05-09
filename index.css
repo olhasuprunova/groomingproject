@@ -89,12 +89,12 @@ main .dogsimg {
             width: 100%;
         }
 
-.scissors {
+.poodle {
     width: 100px;
     display: flex;
 }
 
-.scissors img {
+.poodle img {
     margin: auto 0px;
     float: none;
     width: 100px;
@@ -147,38 +147,11 @@ label, input {
     height: 50px;
 }
 
-.instagram {
-    width: 100px;
-    display: flex;
+.row {
+  display: flex;
 }
 
-.instagram img {
-    margin: auto 0px;
-    float: none;
-    width: 100px;
-    height: 75px;
-}
-
-.facebook {
-    width: 100px;
-    display: flex;
-}
-
-.facebook img {
-    margin: auto 0px;
-    float: none;
-    width: 100px;
-    height: 75px;
-}
-
-.twitter {
-    width: 100px;
-    display: flex;
-}
-
-.twitter img {
-    margin: auto 0px;
-    float: none;
-    width: 100px;
-    height: 75px;
+.socialmedia {
+  flex: 33.33%;
+  padding: 5px;
 }
