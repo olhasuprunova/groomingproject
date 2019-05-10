@@ -169,7 +169,7 @@ td {
 
 .award {
     width: 100px;
-    display: flex;
+    display:flex;
     text-align:right;
 }
 
@@ -181,9 +181,10 @@ td {
 }
 
 footer {
-    height: 70px;
+    height: 130px;
     margin: 1px 1px 1px 1px;
     text-align:center;
+    background: #cde8f7;
 }
 
 
@@ -195,4 +196,3 @@ footer {
     flex: 33.33%;
     padding: 25px;
 }
-
