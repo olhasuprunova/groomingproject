@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dokdo|Raleway');
 
+:root {
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
 body {
     max-width: 800px;
     margin: auto;
@@ -149,7 +153,6 @@ td {
 .yourinfo {
     display: flex;
     flex-flow: column;
-    align-items: left;
      grid-area: b;
      align-self: start;
 }
