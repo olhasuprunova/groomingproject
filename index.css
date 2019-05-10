@@ -147,10 +147,21 @@ td {
 .yourinfo label {
   margin: 1px 2px 4px 0;
 }
+
 .yourinfo input {
   vertical-align: middle;
   margin: 1px 2px 4px 0;
+  width: 10em;
   padding: 5px;
+}
+.yourinfo textarea {
+  vertical-align: text-top;
+  margin: 1px 2px 4px 0;
+  padding: 50px;
+}
+
+.yourinfo input[type=submit] {
+  width: 19em;  height: 2em;
 }
 
 .award {
