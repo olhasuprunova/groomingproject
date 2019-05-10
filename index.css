@@ -137,12 +137,12 @@ td {
     padding: 25px;
      grid-template-areas: 
      "a a a a a a a a"
-     "b b b b b b b b"
+     "b b b c c c c c"
 }
 
 #contactus h3 {
     grid-area: a;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -150,6 +150,8 @@ td {
     display: flex;
     flex-flow: column;
     align-items: left;
+     grid-area: b;
+     align-self: start;
 }
 
 .yourinfo label {
@@ -181,7 +183,9 @@ td {
 
 .youtube {
   width: 100px;
-  display: flex;
+  display:flex;
+   grid-area: c;
+    align-self: center;
 }
 
 
