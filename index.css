@@ -138,39 +138,50 @@ td {
 #contactus h3 {
     text-align: left;
 }
-.yourinfo {  
-  display: flex;
-  flex-flow: column;
-  align-items: left;
+
+.yourinfo {
+    display: flex;
+    flex-flow: column;
+    align-items: left;
 }
 
 .yourinfo label {
-  float: left; width: 10em; margin-right: 1em;
-  margin: 1px 2px 4px 0;
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    margin: 1px 2px 4px 0;
 }
 
 .yourinfo input {
-  vertical-align: middle;
-  margin: 1px 2px 4px 0;
-  width: 10em;
-  padding: 5px;
+    vertical-align: middle;
+    margin: 1px 2px 4px 0;
+    width: 10em;
+    padding: 5px;
 }
+
 .yourinfo textarea {
-  vertical-align: text-top;
-  margin: 1px 2px 4px 0;
-  width:100px;
-  hight:100px;
-  padding: 25px;
+    vertical-align: text-top;
+    margin: 1px 2px 4px 0;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
 }
 
 .yourinfo input[type=submit] {
-  width: 11.5em;  height: 2em;
+    width: 11.5em;
+    height: 2em;
 }
+
+.youtube {
+  width: 100px;
+  display: flex;
+}
+
 
 .award {
     width: 100px;
-    display:flex;
-    text-align:right;
+    display: flex;
+    text-align: right;
 }
 
 .award img {
@@ -183,7 +194,7 @@ td {
 footer {
     height: 130px;
     margin: 1px 1px 1px 1px;
-    text-align:center;
+    text-align: center;
     background: #cde8f7;
 }
 
