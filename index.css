@@ -47,7 +47,7 @@ header nav ul li a {
     color: black;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
     header nav {
         display: flex;
     }
@@ -95,32 +95,45 @@ main .dogsimg {
 
 }
 
+
+
 #about aside {
     float: right;
     text-align: right
 }
 
 #map {
-    height: 300px;
-    width: 100%;
+    height: 250px;
+    width: 50%;
+    float:right;
 }
 
 .poodle {
-    width: 100px;
-    display: flex;
+    width: 100%;
+    float:left;
 }
 
 .poodle img {
     margin: auto 0px;
     float: none;
-    width: 225px;
-    height: 240px;
+    width: 300px;
+    padding: 20px;
+    height: 400px;
 
 }
 
-#services {
+@media (min-width: 500px) {
+    main #about {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1px
+    }
 
-    padding: 25px;
+
+
+#services {
+    margin: auto 0px;
+    padding: 90px;
 }
 
 #services h2 {
@@ -135,8 +148,9 @@ td {
 }
 
 .get-in-touch {
+    margin: auto 0px;
     display: grid;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -175,15 +189,17 @@ td {
 }
 
 .yourinfo input[type=submit] {
-    display:flex
-    align-items:center;
-    vertical-align: middle;
-    width: 20em;
-    height: 2em;
+    display:flex;
+    align-self:flex-end;
+    vertical-align:middle;
+    margin: auto;
+    width: 100px;
+    height: 30px;
 }
 
 .youtube {
-    width: 100%;
+    margin:auto;
+    width: 70%;
     display: flex;
     align-self: center;
 }
@@ -192,10 +208,11 @@ iframe {
     width: 100% !important;
 }
 
-@media (max-width: 600px) {
-    main #about h1 {
-        display:flex;
-        justify-content:space-around;
+@media (min-width: 600px) {
+    main #services {
+           display:grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1px
     }
 }
 
@@ -215,4 +232,21 @@ footer {
 .socialmedia {
     flex: 33.33%;
     padding: 25px;
+}
+
+@media (min-width: 600px) {
+    main #contactus {
+         display:grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1px
+    }
+}
+
+@media (min-width: 600px) {
+    footer {
+        height: 130px;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    background: #cde8f7;
+    }
 }
