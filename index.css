@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     background: #8eefd4;
 }
@@ -47,7 +47,7 @@ header nav ul li a {
     color: black;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     header nav {
         display: flex;
     }
@@ -62,7 +62,7 @@ main .dogsimg {
     background-size: cover;
     background-position: center;
     min-height: 450px;
-    flex-basis: 100%
+    flex-basis: 100%;
 }
 
 #about {
@@ -134,17 +134,14 @@ td {
     width: 100%
 }
 
-
-#contactus {
+.get-in-touch {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-gap: 10px;
-    padding: 25px;
-    grid-template-areas: "a a a a a a a a" "b b b c c c c c"
+    grid-template-columns: 3fr 7fr;
 }
 
+
 #contactus h3 {
-    grid-area: a;
+  
     text-align: center;
 }
 
@@ -152,8 +149,6 @@ td {
 .yourinfo {
     display: flex;
     flex-flow: column;
-    grid-area: b;
-    align-self: start;
 }
 
 .yourinfo label {
@@ -186,8 +181,18 @@ td {
 .youtube {
     width: 100%;
     display: flex;
-    grid-area: c;
     align-self: center;
+}
+
+iframe {
+    width: 100% !important;
+}
+
+@media (max-width: 600px) {
+    main #about h1 {
+        display:flex;
+        justify-content:space-around;
+    }
 }
 
 
