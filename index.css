@@ -149,11 +149,12 @@ td {
 .yourinfo {
     display: flex;
     flex-flow: column;
+    align-items: flex-end;
 }
 
 .yourinfo label {
-    float: left;
-    width: 10em;
+    align-items: right;
+    width: 20em;
     margin-right: 1em;
     margin: 1px 2px 4px 0;
 }
@@ -161,20 +162,23 @@ td {
 .yourinfo input {
     vertical-align: middle;
     margin: 1px 2px 4px 0;
-    width: 10em;
+    width: 20em;
     padding: 5px;
 }
 
 .yourinfo textarea {
     vertical-align: text-top;
     margin: 1px 2px 4px 0;
-    width: 100px;
+    width: 230px;
     height: 100px;
     padding: 25px;
 }
 
 .yourinfo input[type=submit] {
-    width: 11.5em;
+    display:flex
+    align-items:center;
+    vertical-align: middle;
+    width: 20em;
     height: 2em;
 }
 
