@@ -187,11 +187,11 @@ main .dogsimg {
 
 #services {
     margin: auto 0px;
-    padding: 200px;
+    padding: 100px;
 }
 
 #services h2 {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 
 }
@@ -201,8 +201,8 @@ th,
 td {
 
     border: 1px solid black;
-    width: 400%;
-    margin-left: -170px;
+    width: 80%;
+    margin-left: -100px;
 }
 
 
