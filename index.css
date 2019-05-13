@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     background: #8eefd4;
 }
@@ -23,7 +23,7 @@ footer,
 div,
 nav {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 .logo {
@@ -72,12 +72,13 @@ main .dogsimg {
 
 #about h1 {
     text-align: center;
+    text-transform:uppercase;
 }
 
 #about article {
-    float: left;
-    text-align:left;
-    
+    margin: auto 0px;
+
+
 }
 
 
@@ -197,7 +198,7 @@ main .dogsimg {
 
 @media (min-width: 600px) {
     main #about {
-        display:grid;
+        display: grid;
         grid-template-rows: 1fr 1fr;
     }
 
@@ -209,7 +210,8 @@ main .dogsimg {
     }
 
     #services h2 {
-        text-align: center
+        text-align: center;
+        text-transform: uppercase;
     }
 
     table,
@@ -218,8 +220,8 @@ main .dogsimg {
         border: 1px solid black;
         width: 100%
     }
-    
-     @media (min-width: 600px) {
+
+    @media (min-width: 600px) {
         main #services {
             display: grid;
             grid-template-columns: 1fr;
@@ -236,6 +238,7 @@ main .dogsimg {
     #contactus h3 {
 
         text-align: center;
+        text-transform:uppercase;
     }
 
 
@@ -287,8 +290,8 @@ main .dogsimg {
         width: 100% !important;
     }
 
-   
-@media (min-width: 600px) {
+
+    @media (min-width: 600px) {
         main #contactus {
             display: grid;
             grid-template-columns: 1fr;
@@ -313,7 +316,7 @@ main .dogsimg {
         padding: 25px;
     }
 
-    
+
     @media (min-width: 600px) {
         footer {
             height: 130px;
