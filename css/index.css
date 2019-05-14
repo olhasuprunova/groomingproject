@@ -90,7 +90,7 @@ main .dogsimg {
 
 }
 
-#about aside {
+.howtofindus {
     float: left;
     text-align: left;
 }
@@ -283,21 +283,19 @@ footer .row {
     }
 }
 
-@media (min-width: 600px) {
-    main #about {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-}
 
 @media (min-width:600px) {
     .groomingpictures {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
+        display: flex;
+        justify-content: space-around;
 
-@media (min-width:600px) {
+    }
+    .groomingpictures {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
     .dog {
         width: 100%;
         float: left;
@@ -313,7 +311,7 @@ footer .row {
 }
 
 @media (min-width:600px) {
-    #about aside {
+    .howtofindus {
         float: right;
         text-align: right
     }
@@ -325,15 +323,12 @@ footer .row {
     }
 }
 
-@media (min-width: 600px) {
-    main #services {
-        margin: auto 0px;
-        padding: 90px;
-    }
-}
 
 @media (min-width:600px) {
     #services h2 {
+        margin: auto;
+        padding: 180px;
+        display: flex;
         text-align: center;
         text-transform: uppercase;
 
