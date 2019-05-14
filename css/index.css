@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
     background: #8eefd4;
 }
@@ -23,7 +23,7 @@ footer,
 div,
 nav {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 .logo {
@@ -50,7 +50,7 @@ header nav ul li a {
 
 
 main .dogsimg {
-    background-image: url(img/dogs-spa.jpg);
+    background-image: url(../img/dogs-spa.jpg);
     background-size: cover;
     background-position: center;
     min-height: 450px;
@@ -58,7 +58,7 @@ main .dogsimg {
 }
 
 #about {
-    margin: auto 0px;
+    margin: auto 0;
     padding: 20px;
 }
 
@@ -82,15 +82,13 @@ main .dogsimg {
 }
 
 .doggie img {
-    margin: auto 0px;
+    margin: auto 0;
     float: left;
     width: 250px;
     height: auto;
     border-radius: 50%;
 
 }
-
-
 
 #about aside {
     float: left;
@@ -102,7 +100,6 @@ main .dogsimg {
     width: 100%;
     float: left;
 }
-
 
 .poodle {
     width: 100%;
@@ -184,7 +181,6 @@ main .dogsimg {
     height: 400px;
 }
 
-
 #services {
     margin: auto 0px;
     padding: 100px;
@@ -205,19 +201,15 @@ td {
     margin-left: -100px;
 }
 
-
 .get-in-touch {
     margin: auto 0px;
     display: block;
 }
 
-
 #contactus h3 {
-
     text-align: left;
     text-transform: uppercase;
 }
-
 
 .yourinfo {
     display: flex;
@@ -297,140 +289,144 @@ footer .row {
         grid-template-rows: 1fr 1fr;
     }
 }
-    @media (min-width:600px) {
-        .groomingpictures {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    }
-    @media (min-width:600px) {
-        .dog {
-            width: 100%;
-            float: left;
-            display: block;
-        }
-        .doggie img {
-            margin: auto 0px;
-            float: left;
-            width: 450px;
-            height: auto;
-            border-radius: 50%;
-        }
-    }
 
-    @media (min-width:600px) {
-        #about aside {
-            float: right;
-            text-align: right
-        }
+@media (min-width:600px) {
+    .groomingpictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
-        #map {
-            height: 450px;
-            width: 60%;
-            float: right;
-        }
+@media (min-width:600px) {
+    .dog {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    .doggie img {
+        margin: auto 0px;
+        float: left;
+        width: 450px;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:600px) {
+    #about aside {
+        float: right;
+        text-align: right
     }
 
-    @media (min-width: 600px) {
-        main #services {
-            margin: auto 0px;
-            padding: 90px;
-        }
+    #map {
+        height: 450px;
+        width: 60%;
+        float: right;
+    }
+}
 
-        @media (min-width:600px) {
-            #services h2 {
-                text-align: center;
-                text-transform: uppercase;
+@media (min-width: 600px) {
+    main #services {
+        margin: auto 0px;
+        padding: 90px;
+    }
+}
 
-            }
+@media (min-width:600px) {
+    #services h2 {
+        text-align: center;
+        text-transform: uppercase;
 
-            table,
-            th,
-            td {
-                border: 1px solid black;
-                margin: auto;
-                width: 100%
-            }
+    }
 
-            @media (min-width:600px) {
-                .get-in-touch {
-                    margin: auto 0px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                }
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        margin: auto;
+        width: 100%
+    }
+}
 
-
-                #contactus h3 {
-
-                    text-align: center;
-                    text-transform: uppercase;
-                }
+@media (min-width:600px) {
+    .get-in-touch {
+        margin: auto 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
-                .yourinfo {
-                    display: flex;
-                    flex-flow: column;
-                    align-items: flex-end;
-                }
+    #contactus h3 {
 
-                .yourinfo label {
-                    width: 20em;
-                    margin-right: 1em;
-                    margin: 1px 2px 4px 0;
-                }
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-                .yourinfo input {
-                    vertical-align: middle;
-                    margin: 1px 2px 4px 0;
-                    width: 20em;
-                    padding: 5px;
-                }
 
-                .yourinfo textarea {
-                    vertical-align: text-top;
-                    margin: 1px 2px 4px 0;
-                    width: 230px;
-                    height: 100px;
-                    padding: 25px;
-                }
+    .yourinfo {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }
 
-                .yourinfo input[type=submit] {
-                    display: flex;
-                    align-self: flex-end;
-                    vertical-align: middle;
-                    margin: auto;
-                    width: 100px;
-                    height: 30px;
-                }
+    .yourinfo label {
+        width: 20em;
+        margin-right: 1em;
+        margin: 1px 2px 4px 0;
+    }
 
-                .youtube {
-                    margin: auto;
-                    width: 70%;
-                    display: flex;
-                    align-self: center;
-                }
+    .yourinfo input {
+        vertical-align: middle;
+        margin: 1px 2px 4px 0;
+        width: 20em;
+        padding: 5px;
+    }
 
-                iframe {
-                    width: 100% !important;
-                }
-            }
+    .yourinfo textarea {
+        vertical-align: text-top;
+        margin: 1px 2px 4px 0;
+        width: 230px;
+        height: 100px;
+        padding: 25px;
+    }
 
-            @media (min-width:600px) {
-                footer {
-                    padding-top: 20px;
-                    background-color: #8eccf2;
-                }
+    .yourinfo input[type=submit] {
+        display: flex;
+        align-self: flex-end;
+        vertical-align: middle;
+        margin: auto;
+        width: 100px;
+        height: 30px;
+    }
 
-                .socialmedia a img {
-                    width: 100%;
-                }
+    .youtube {
+        margin: auto;
+        width: 70%;
+        display: flex;
+        align-self: center;
+    }
 
-                footer .row {
-                    display: flex;
-                    justify-content: space-around;
-                }
+    iframe {
+        width: 100% !important;
+    }
+}
 
-                .copyright {
-                    text-align: center;
-                }
-            }
+@media (min-width:600px) {
+    footer {
+        padding-top: 20px;
+        background-color: #8eccf2;
+    }
+
+    .socialmedia a img {
+        width: 100%;
+    }
+
+    footer .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
