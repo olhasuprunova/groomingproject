@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
     background: #8eefd4;
 }
@@ -47,8 +47,6 @@ header nav ul li a {
     color: black;
 }
 
-
-
 main .dogsimg {
     background-image: url(../img/dogs-spa.jpg);
     background-size: cover;
@@ -69,16 +67,10 @@ main .dogsimg {
 
 #about article {
     margin: auto 0px;
-
-
 }
-
-
-
 .doggie {
     width: 100px;
     display: flex;
-
 }
 
 .doggie img {
@@ -90,7 +82,7 @@ main .dogsimg {
 
 }
 
-.howtofindus {
+#about aside {
     float: left;
     text-align: left;
 }
@@ -283,18 +275,21 @@ footer .row {
     }
 }
 
+@media (min-width: 600px) {
+    main #about {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}
 
 @media (min-width:600px) {
     .groomingpictures {
-        display: flex;
-        justify-content: space-around;
-
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .groomingsaloon {
-        display: flex;
-        justify-content: space-around;
-    }
+}
 
+@media (min-width:600px) {
     .dog {
         width: 100%;
         float: left;
@@ -310,7 +305,7 @@ footer .row {
 }
 
 @media (min-width:600px) {
-    .howtofindus {
+    #about aside {
         float: right;
         text-align: right
     }
@@ -322,12 +317,15 @@ footer .row {
     }
 }
 
+@media (min-width: 600px) {
+    main #services {
+        margin: auto 0px;
+        padding: 90px;
+    }
+}
 
 @media (min-width:600px) {
     #services h2 {
-        margin: auto;
-        padding: 180px;
-        display: flex;
         text-align: center;
         text-transform: uppercase;
 
